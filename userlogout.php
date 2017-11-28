@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION['username']);
+unset($_SESSION['regid1']);
+unset($_SESSION['did']);
+unset($_SESSION['rid']);
+unset($_SESSION['arid']);
+header('location:userlogin.php');
+?>

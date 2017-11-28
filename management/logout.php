@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION['umana']);
+unset($_SESSION['regid3']);
+unset($_SESSION['did3']);
+unset($_SESSION['rid3']);
+unset($_SESSION['arid3']);
+header('location:../userlogin.php');
+?>
